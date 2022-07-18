@@ -1,0 +1,48 @@
+body {
+ background-image: url("/assets/img/bg.png");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
+html {
+    height: 100%
+}
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+@font-face {
+    font-family: Delicious; src: url('/assets/font.ttf');
+}
+
+a {
+    font-size: 20px;
+    font-family: Delicious
+}
+
+#hero img {
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#hero .content {
+
+    height: 100%;
+    width: 100%;
+    z-index:20;
+    position:absolute;
+    top:0px;
+    left:0;
+}
